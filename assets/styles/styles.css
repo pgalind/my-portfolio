@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: none;
 }
 
-/*#my-modal {
+#my-modal {
 	display: none;
 }
 
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .custombox-content {
 	background: #212332;
-}*/
+}
 
 /**********************************/
 
@@ -138,15 +138,15 @@ h1, h2, h3, h4, h5, h6 {
 	cursor: pointer;
 }
 
-/*** Experience ***/
+/*** experience ***/
 #experience {
 	background-color: #4c6d86;
-	padding: 6em 4em 5.6em;
+	padding: 4em 2em;
 }
 
 #experience h2 {
 	color: #fff;
-	margin-bottom: .7em;
+	margin-bottom: 1em;
 }
 
 #experience .tag-line {
@@ -176,31 +176,29 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 }
 
-/*** work ***/
-#work {
-	padding: 6em 4em 3em;
+/*** project ***/
+#project {
+	padding: 4em 2em;
 	background-color: #fff;
 }
 
-#work h2 {
+#project h2 {
 	color: #FF6945;
-	margin-bottom: .7em;
+	margin-bottom: 1em;
 }
 
-
-#work .tag-line {
+#project .tag-line {
 	color: #767779;
 	font-size: 1.4em;
 	margin-bottom: 4em;
 }
 
-#work .work-row {
-	margin-bottom: 5.5em;
+#project .project-row {
+	margin-bottom: 5em;
 }
 
 .details h3 {
 	color: #738182;
-	text-transform: uppercase;
 }
 
 .details .platform{
@@ -237,50 +235,10 @@ h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 }
 
-/*** teaching ***/
-#teaching {
-	padding: 6em 4em 3em;
-}
-
-#teaching h2 {
-	color: #595959;
-}
-
-#teaching .tag-line {
-	color: #848282;
-	font-size: 1.4em;
-}
-
-#teaching .teaching-domains {
-	height: 500px;
-	width: auto;
-	margin-top: -4em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*** Footer Call-to-action ***/
 #footer-cta {
 	background-color: rgba(255, 103, 68, 0.91);
-	padding: 6em 4em 5.6em;
+	padding: 4em 2em;
 }
 
 #footer-cta h2 {
@@ -334,12 +292,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: #7d7d7d;
 }
 
-
 .profile-photo {
 	width: 200px;
     height: 200px;
     margin: 0 auto;
     border-radius: 50%;
+    border: solid 4px #fff;
     background-size: cover;
     margin-top: -100px;
     margin-bottom: 40px;

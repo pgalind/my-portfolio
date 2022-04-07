@@ -2,25 +2,25 @@ const Portfolio = function() {
 	function makeWords() {
 		var words = [
 			{
-				text: "create",
+				text: "creative",
 				weight: 12
 			}, {
-				text: "css",
+				text: "CSS",
 				weight: 8
 			}, {
-				text: "javascript",
+				text: "javaScript",
 				weight: 14
 			}, {
 				text: "c/c++",
 				weight: 3
 			}, {
-				text: "programming",
+				text: "developer",
 				weight: 7
 			}, {
-				text: "html",
+				text: "HTML",
 				weight: 10
 			}, {
-				text: "java",
+				text: "Java",
 				weight: 9
 			}, {
 				text: "passionate",
@@ -57,12 +57,11 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"I am a junior Front-End Web Developer,", "looking to expand my skills", "and gain professional experience.", "I love being creative and solving problems."
-			],
+				"I am a computer science undergraduate,", "strong communicator and leader", "looking to expand my technical skills", "and gain professional experience."],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
 			// typing speed
-			typeSpeed: 4,
+			typeSpeed: 3,
 			contentType: 'text',
 			callback: function() {
 				$("#writing-text").css({"color": "#fff", "background-color": "#C8412B"});
