@@ -1,6 +1,6 @@
 # Portfolio
 
-I used the Perfect Portoflio Template to get stated.
+I used the Perfect Portfolio Template to get stated.
 
 ## Credits
 
